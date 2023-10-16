@@ -22,7 +22,7 @@ pipeline {
         stage('Unit Tests') {
             steps {
                 // Run unit tests.
-                sh 'mvn test' // Replace with your test command.
+                sh 'mvn test' // Replace with your test command..
             }
         }
 
