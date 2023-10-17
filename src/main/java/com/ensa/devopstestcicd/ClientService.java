@@ -13,7 +13,7 @@ public class ClientService {
                 new Client(UUID.randomUUID().toString(), "Med", "El1", "facke@gmail.com"),
                 new Client(UUID.randomUUID().toString(), "James", "El2", "late@gmail.com"),
                 new Client(UUID.randomUUID().toString(), "Toto", "El3", "toto@gmail.com"),
-                new Client(UUID.randomUUID().toString(), "Lala", "El23", "lolo@gmail.com")
+                new Client(UUID.randomUUID().toString(), "Layla", "El23", "lolo@gmail.com")
         );
     }
 }
