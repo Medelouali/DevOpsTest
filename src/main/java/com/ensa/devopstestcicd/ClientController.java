@@ -13,7 +13,7 @@ import java.util.List;
 @AllArgsConstructor
 public class ClientController {
     private final ClientService clientService;
-
+    //Hello CI/CD
     @RequestMapping(path = "", method = RequestMethod.GET)
     public List<Client> getClient(){
         return this.clientService.getClients();
